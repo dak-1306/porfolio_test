@@ -1,0 +1,47 @@
+.about-me {
+  display: flex;
+  align-items: center;
+  width: 1470px;
+  height: 675px;
+}
+.infor {
+  text-align: left;
+  margin-left: 33px;
+  margin-top: 55px;
+}
+.infor h1 {
+  font-size: 65px;
+  font-weight: 600px;
+  margin-bottom: 15px;
+}
+.infor p {
+  font-size: 21px;
+  font-weight: 400px;
+  margin-bottom: 15px;
+}
+.skill li {
+  font-size: 24px;
+  font-weight: 600px;
+}
+.range {
+  -webkit-appearance: none;
+  width: 753px;
+  height: 12px;
+  background: linear-gradient(to right, #fd6f00 50%, #edecec 50%);
+  border-radius: 6px;
+  outline: none;
+}
+.range::-webkit-slider-runnable-track {
+  height: 12px;
+  border-radius: 6px;
+}
+.range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid #fd6f00;
+  background-color: #edecec;
+  margin-top: -10px;
+}
